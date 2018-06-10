@@ -1,0 +1,198 @@
+<p><script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<div id="page-wrap">
+<div id="content" class="nopadding page-section">
+<div class="table-outer">
+<div class="table-inner">
+<article id="post-3362" class="post-3362 page type-page status-publish hentry">
+<div class="entry">
+<div class="wpb_row vc_row-fluid standard-section section section-no-parallax stretch " style="background-color: #ffffff; padding-top: 100px; padding-bottom: 100px;" data-speed="1">
+<div class="col span_12 color-dark text-align-left">
+<div class="vc_col-sm-12 wpb_column column_container col no-padding color-dark" data-animation="" data-delay="">
+<div class="wpb_wrapper">
+<h1 class="headline special 20px 700 lh-inherit uppercase " style="margin: 0 0 20px 0;">Formation CISSP</h1>
+<div class="wpb_text_column wpb_content_element ">
+<div class="wpb_wrapper"></div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<p><script type="text/javascript">
+$(document).ready(function (e){
+$("#frmContact").on('submit',(function(e){
+	e.preventDefault();
+	$('#loader-icon').show();
+	var valid;	
+	valid = validateContact();
+	if(valid) {
+		$.ajax({
+		url: "https://www.intervalle-technologies.com/fr/formationEN/formation_mail.php",
+		type: "POST",
+		data:  new FormData(this),
+		contentType: false,
+		cache: false,
+		processData:false,
+		success: function(data){
+		$("#mail-status").html(data);
+		$('#loader-icon').hide();
+		},
+		error: function(){} 	        </p>
+</p>
+</p>
+<p>		});
+	}
+}));</p>
+</p>
+</p>
+<p>function validateContact() {
+	var valid = true;	
+	$(".demoInputBox").css('background-color','');
+	$(".info").html('');</p>
+</p>
+</p>
+<p>	if(!$("#userName").val()) {
+		$("#userName-info").html("(required)");
+		$("#userName").css('background-color','#FFFFDF');
+		valid = false;
+	}
+	if(!$("#userPrenom").val()) {
+		$("#userPrenom-info").html("(required)");
+		$("#userPrenom").css('background-color','#FFFFDF');
+		valid = false;
+	}</p>
+</p>
+</p>
+<p>	if(!$("#userEmail").val()) {
+		$("#userEmail-info").html("(required)");
+		$("#userEmail").css('background-color','#FFFFDF');
+		valid = false;
+	}
+	if(!$("#userEmail").val().match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+		$("#userEmail-info").html("(invalid)");
+		$("#userEmail").css('background-color','#FFFFDF');
+		valid = false;
+	}
+	if(!$("#userCompany").val()) {
+		$("#userCompany-info").html("(required)");
+		$("#userCompany").css('background-color','#FFFFDF');
+		valid = false;
+	}
+	if(!$("#userFonction").val()) {
+		$("#userFonction-info").html("(required)");
+		$("#userFonction").css('background-color','#FFFFDF');
+		valid = false;
+	}</p>
+</p>
+</p>
+<p>return valid;
+}</p>
+</p>
+</p>
+<p>});
+</script></p>
+<form id="frmContact" style="width: 500px; margin-left: 0px;" action="" method="post">
+<h3>Inscription à la prochaine formation CISSP</h3>
+<div class="spacer" style="height: 10px;"></div>
+<div id="mail-status"></div>
+<table border="1">
+<tbody>
+<tr>
+<td style="width: 500px;">
+<div><label style="width: 500px;">Name<br />
+<input id="userName" class="demoInputBox" style="width: 500px;" name="userName" type="text" /><br />
+</label></div>
+</td>
+</tr>
+<tr>
+<td style="width: 500px;">
+<div><label style="width: 500px;">Last name<br />
+<input id="userPrenom" class="demoInputBox" style="width: 500px;" name="userPrenom" type="text" /><br />
+</label></div>
+</td>
+</tr>
+<tr>
+<td style="width: 500px;">
+<div><label>Email<br />
+<input id="userEmail" class="demoInputBox" style="width: 500px;" name="userEmail" type="text" /><br />
+</label></div>
+</td>
+</tr>
+<tr>
+<td style="width: 500px;">
+<div><label>Company<br />
+<input id="userCompany" class="demoInputBox" style="width: 500px;" name="userCompany" type="text" /><br />
+</label></div>
+</td>
+</tr>
+<tr>
+<td style="width: 500px;">
+<div><label>Function<br />
+<input id="userFonction" class="demoInputBox" style="width: 500px;" name="userFonction" type="text" /><br />
+</label></div>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="float: left; margin-left: 210px; text-align: center;"><input class="btnAction" type="submit" value="Envoyer" /></div>
+</form>
+<div id="loader-icon" style="display: none;"><img src="https://www.intervalle-technologies.com/fr/formationEN/LoaderIcon.gif" /></div>
+<p><a href="https://www.intervalle-technologies.com/fr/media/Brochure_Bootcamp_2018.pdf" target="__blank"><img src="https://www.intervalle-technologies.com/fr/wp-content/uploads/2018/04/BandeauLinkedin03.jpg" /></a><br />
+<!--
+
+
+
+
+<div id="sig" style="min-height: 60px; line-height: 17px; margin: 0; padding: 10px 0; border-top: 1px #cccccc solid; font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; font-size: 11px; color: #3a342c; min-width: 530px;" >
+<a href="https://www.intervalle-technologies.com/fr/media/Brochure_Bootcamp_2018.pdf" target="__blank"><img src="https://www.intervalle-technologies.com/fr/wp-content/uploads/2018/04/BrochureThumbs.png" width="auto" height="92" style=" float: left; padding: 0 10px 0 0; border-right: 2px solid red; width: auto; height: 85px; "></a>
+
+<a href="https://www.intervalle-technologies.com/fr/media/Brochure_Bootcamp_2018.pdf" target="__blank"><strong style="margin-left:10px;color: #3a342c; font-size:12px;color:red;margin-left:10px;color: red; font-size: 19px;font-family: monospace;">Download the Bootcamp 2018 brochure</strong></a>
+<strong style="margin-left:10px;color: #3a342c; font-size: 10px;font-family: monospace;">PDF Format</strong>
+<strong style="margin-left:10px;color: #3a342c; font-size: 10px;font-family: monospace;">Size: 4.34 MB (4,552,970 bytes)</strong>
+<strong style="margin-left:10px;color: #3a342c; font-size: 10px;font-family: monospace;">On Disk: 4.34 MB (4,554,752 bytes)</strong>
+
+</div>
+
+
+
+
+--></p>
+</div>
+<p><!--/****************************************************************************************/ --></p>
+<div class="col-md-6">
+<div id="sig" style="min-height: 60px; line-height: 17px; margin: 0; padding: 10px 0; border-top: 1px #cccccc solid; font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; font-size: 11px; color: #3a342c; min-width: 530px;">
+<p><a href="https://www.intervalle-technologies.com/fr/media/Brochure_Bootcamp_2018.pdf" target="__blank"><img style="float: left; padding: 0 10px 0 0; border-right: 2px solid red; width: auto; height: auto;" src="https://www.intervalle-technologies.com/fr/wp-content/uploads/2018/04/BrochureThumbs.png" width="auto" height="92" /></a><a href="https://www.intervalle-technologies.com/fr/media/Brochure_Bootcamp_2018.pdf" target="__blank"><strong style="margin-left: 10px; color: red; font-size: 17px; font-family: monospace;">Download the Bootcamp 2018 brochure</strong></a><br />
+<strong style="margin-left:10px;color: #3a342c; font-size: 10px;font-family: monospace;">PDF Format</strong>
+<strong style="margin-left:10px;color: #3a342c; font-size: 10px;font-family: monospace;">Size: 4.34 MB (4,552,970 bytes)</strong><br>
+<strong style="margin-left:10px;color: #3a342c; font-size: 10px;font-family: monospace;">On Disk: 4.34 MB (4,554,752 bytes)</strong>
+<p><strong>Intervalle Technologies Partner and Accredited Training Center (ISC) ² for the MENA region is organizing the 1st CISSP training session in the BOOT CAMP format in Algeria.</strong></p>
+<p style="color: green;">The CISSP certification is the most famous and prestigious in the world in the field of Information Systems Security. It is also one of the most difficult to obtain.</p>
+<p>The intensive BOOTCAMP formula offered by Intervalle Technologies with the support of <span style = "color: green;"> (ISC) ² </span> will allow participants to acquire all the theoretical and technical knowledge to pass and pass the exam certification <span style="color: green;">CISSP</span>.</p>
+<ul>
+<li> Intensive Training for Exam Preparation <span style = "color: green;"> CISSP </span> </li>
+<li> IMMERSION Total in an environment conducive to concentration in the enchanting setting of the Hotel "Le Caid Boussaada" </li>
+<li> The Bootcamp is designed to push participants to go further than they would during classical training </li>
+<li> Additional daily reviews are offered in BOOTCAMP throughout the day at the end of each module. </li>
+<li> Official content of the updated CISSP training provided by an accredited instructor to <span style = "color: green;"> (ISC) ² </span> </li>
+<li> Rich and varied program combining the official training seminar, workshops, brainstorming and expert intervention </li>
+</ul>
+<h4>Date & Location</h4>
+<p> The training seminar will take place from <span style = "color: red;"> 06 </span> to <span style = "color: red;"> 10 </span> May <span style = "color : red; "> 2018 </span> in the luxurious and emblematic Hotel" Le Caid Boussaada "of the Hotel ELDJAZAIR chain. </p>
+<p><a href="http://hotelcaid.com/index.php/fr/caid/historique/index" target="__blank"> http://hotelcaid.com/index.php/fr/caid/historique/index</a></p>
+<p><strong>Attention, limited places! Information and Registration at : </strong></p>
+<p>Web : www.intervalle-technologies.com<br />
+E-mail : training@intervalle-technologies.com<br />
+Tel : +213 21 54 47 88<br />
+Accredited Training Centers (ISC) 2, Official Training Providers (OTP) can be verified on the site : <a href="https://www.isc2.org/Training#8e5a9013f2fd4cceb0fb87f380c5b64b" target="__blank">https://www.isc2.org/Training </a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>

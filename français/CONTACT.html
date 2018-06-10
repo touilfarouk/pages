@@ -1,0 +1,171 @@
+  	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<div id="page-wrap">
+
+		<div id="content" class="nopadding page-section">
+		
+			<div class="table-outer">
+					
+				<div class="table-inner">
+						
+					<article id="post-3362" class="post-3362 page type-page status-publish hentry">
+
+						<div class="entry">
+
+							<div class="wpb_row vc_row-fluid standard-section section  section-no-parallax  stretch   " data-speed="1" style="background-color: #ffffff; padding-top: 100px; padding-bottom: 100px; "><div class="col span_12 color-dark text-align-left">
+	<div class="vc_col-sm-12 wpb_column column_container col no-padding color-dark" style="" data-animation="" data-delay="">
+	
+
+	
+	
+
+	
+	
+	
+
+<script type="text/javascript">
+$(document).ready(function (e){
+$("#frmContact").on('submit',(function(e){
+	e.preventDefault();
+	$('#loader-icon').show();
+	var valid;	
+	valid = validateContact();
+	if(valid) {
+		$.ajax({
+		url: "https://www.intervalle-technologies.com/fr/contactFR/contact_mail.php",
+		type: "POST",
+		data:  new FormData(this),
+		contentType: false,
+		cache: false,
+		processData:false,
+		success: function(data){
+		$("#mail-status").html(data);
+		$('#loader-icon').hide();
+		},
+		error: function(){} 	        
+		
+		});
+	}
+}));
+
+function validateContact() {
+	var valid = true;	
+	$(".demoInputBox").css('background-color','');
+	$(".info").html('');
+	
+	if(!$("#userName").val()) {
+		$("#userName-info").html("(required)");
+		$("#userName").css('background-color','#FFFFDF');
+		valid = false;
+	}
+
+	
+	if(!$("#userEmail").val()) {
+		$("#userEmail-info").html("(required)");
+		$("#userEmail").css('background-color','#FFFFDF');
+		valid = false;
+	}
+	if(!$("#userEmail").val().match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+		$("#userEmail-info").html("(invalid)");
+		$("#userEmail").css('background-color','#FFFFDF');
+		valid = false;
+	}
+	if(!$("#userMessage").val()) {
+		$("#userMessage-info").html("(required)");
+		$("#userMessage").css('background-color','#FFFFDF');
+		valid = false;
+	}
+
+	
+return valid;
+}
+
+});
+</script>
+
+
+
+
+
+
+
+<div id="francais" class="wpb_wrapper">
+<h3 class="headline font-special fontsize-m fontweight-700 lh-inherit align-left transform-uppercase " style="margin: 0 0 20px 0;"> </h3>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<h4 class="align-left transform-uppercase" style="font-weight:100;font-family: 'Montserrat', Arial, Helvetica, sans-serif;">CONTACTEZ NOUS</h4>
+<p style="text-alin:justify !important">Vous pouvez demander des informations en envoyant un email à l'adresse<br>
+<strong><a href="mailto:info@intervalle-technologies.com">info@intervalle-technologies.com</a></strong><br> ou directement par  <span style="color:#000000;">Tél / Fax :021 54 47 88 </span></p>
+
+</div>
+</div>
+</div>
+
+
+<form id="frmContact" action=""  method="post" style="width:500px; margin-left:300px;">
+
+<div id="mail-status"></div>
+<table border="1">
+								<tr>
+										<td style="width:500px;">
+											<div>
+											<label style="width:500px;">Nom
+											<span id="userName-info" class="info"></span><br/>
+											<input type="text" name="userName" id="userName" class="demoInputBox" style="width:500px;">
+											</label>
+											</div>
+										</td>
+								</tr>
+
+<tr>
+		<td style="width:500px;">
+			<div>
+				<label>Email
+				<span id="userEmail-info" class="info"></span><br/>
+				<input type="text" name="userEmail" id="userEmail" class="demoInputBox" style="width:500px;">
+				</label>
+
+			</div>
+		</td>
+</tr>
+<tr>
+		<td style="width:500px;">
+			<div>
+			<label>Message
+			<span id="userMessage-info" class="info"></span><br/>
+		<textarea name="userMessage"  id="userMessage"  cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" required=""  style="width:500px;"></textarea>
+			</label>
+			</div>
+		</td>
+</tr>
+</table>
+<div style="float:left;margin-left:210px;text-align:center;">
+<input type="submit" value="Envoyer" class="btnAction" />    
+</div>
+</form>
+
+<br>
+<div id="loader-icon" style="display:none;" style="float:left;"><img src="https://www.intervalle-technologies.com/fr/contactFR/LoaderIcon.gif" /></div>
+
+
+
+
+<div id="mail-status"></div>
+
+
+		</div>
+	</div>
+
+		</div> 
+	</div> 
+</div>
+</div>
+
+	</div>
+
+</article>
+
+</div>
